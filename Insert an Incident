@@ -1,5 +1,7 @@
+(function(){
 var gr = new GlideRecord('incident');
 gr.initialize();
 gr.short_description = 'Testing the Background Script';
 gr.caller_id = '62826bf03710200044e0bfc8bcbe5df1'; // Abel Tuter's SysID from User record table
 gr.insert();
+})();
